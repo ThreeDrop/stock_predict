@@ -7,7 +7,7 @@ Created on Sun Jan 20 22:47:27 2019
 
 import pandas as pd
 
-msft_data_copy=pd.read_csv('D:/BaiduYunDownload\msft_stockprices_dataset.csv',encoding="utf-8")
+msft_data_copy=pd.read_csv('D:/BaiduYunDownload/msft_stockprices_dataset.csv',encoding="utf-8")
 
 msft_data_copy["diff_low_high"]=msft_data_copy["High Price"]-msft_data_copy["Low Price"]
 #msft_data_copy["diff_low_open"]=msft_data_copy["Open Price"]-msft_data_copy["Low Price"]
